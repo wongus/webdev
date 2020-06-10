@@ -1,0 +1,92 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.navbarcolumn {
+  background-color: white;
+}
+
+.nav-link {
+  color: #565454;
+  margin-right: 2em !important;
+  margin-left: 2em !important;
+}
+
+.nav-link:hover {
+  color: #242424;
+}
+
+.header {
+  background-image: url('harinkje.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.description {
+  left: 50%;
+  position: absolute;
+  top: 45%;
+  transform: translate(-50%, -40%);
+  text-align: center;
+}
+
+.description h1 {
+  color: #fff;
+}
+
+.description p {
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+.description button {
+  border: 1px solid #fff;
+  background: transparent;
+  color: #fff;
+}
+
+.description button:hover {
+  border: 1px solid #fff;
+  background: #fff;
+  color: #000;
+}
+
+.features {
+  margin: 4em auto;
+  padding: 1em;
+  position: relative;
+}
+
+.image {
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+}
+
+.font {
+  font-weight: bold;
+  font-family: 'Shadows Into Light';
+}
+
+.mapboxgl-ctrl-attrib-inner {
+  display: none;
+}
+
+.footer {
+  background-color: white;
+}
